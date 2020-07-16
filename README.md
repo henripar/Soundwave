@@ -1,6 +1,8 @@
 # Soundwave
 Spotify inspired landing page
 
+![Cover image](img/soundwave.png)
+
 Created a layout with Figma and based on that layout build a responsive landing page for Spotify style app.
 
 Figma layout was created using the tutorial from Dev Ed: 
