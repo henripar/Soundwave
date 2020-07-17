@@ -137,3 +137,70 @@ h2 {
   right: -3%;
   z-index: 0;
 }
+
+footer {
+  background-color: #000000;
+}
+.brand-logo-footer {
+  display: inline-block;
+  margin-left: 10em;
+}
+dl {
+  color: white;
+  display: inline-block;
+  margin: 0 2em;
+}
+dt {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #919496;
+  padding-bottom: 15px;
+  letter-spacing: 0.08em;
+}
+dd {
+  padding-bottom: 15px;
+}
+dd a {
+  text-decoration: none;
+  color: white;
+}
+dd:hover a {
+  color: #bc3a80;
+}
+.nav-links-footer {
+  display: inline-flex;
+  margin-top: 5rem;
+  position: relative;
+  margin-left: 3em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.brand-logo-footer-1 {
+  display: inline-block;
+  text-decoration: none;
+  margin: 1rem 11rem;
+  position: relative;
+}
+.some-links {
+  height: 100px;
+  display: block;
+  margin-left: 6rem;
+}
+.some-links a {
+  color: black;
+}
+.youtube {
+  height: 34px;
+}
+svg {
+  padding: 18px 24px;
+  height: 34px;
+}
+svg:hover path {
+  fill: #bc3a80;
+}
