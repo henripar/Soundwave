@@ -4,6 +4,9 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
+body {
+  max-width: 100vw;
+}
 .main-header {
   display: block;
   background-color: #2f303a;
@@ -203,4 +206,167 @@ svg {
 }
 svg:hover path {
   fill: #bc3a80;
+}
+@media screen and (max-width: 1722px) {
+  .nav {
+    right: 11.5%;
+  }
+  .brand-logo-footer {
+    margin-left: 4em;
+  }
+}
+@media screen and (max-width: 1540px) {
+  .brand-logo-footer {
+    margin: 1rem 0rem;
+    width: 23%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .nav {
+    right: 3.5%;
+  }
+  .brand-logo {
+    margin: 1rem 12rem;
+  }
+  .brand-logo-footer-1 {
+    margin: 1rem 6rem;
+  }
+  .some-links {
+    margin-left: 5rem;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .some-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0px;
+    margin-top: 2.5rem;
+  }
+  .brand-logo-footer {
+    position: relative;
+    height: 100%;
+  }
+  .nav-links-footer {
+    margin-left: 13em;
+  }
+  .footer-name-logo {
+    padding-top: 7.5rem;
+  }
+  .brand-logo-footer-1 {
+    position: absolute;
+    display: inline-block;
+    padding-top: 7rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .home-main--infos {
+    bottom: 27%;
+    width: 38%;
+  }
+  nav {
+    display: block;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .nav {
+    right: 3.5%;
+  }
+  .brand-logo {
+    margin: 1rem 12rem;
+  }
+  .home-main--infos {
+    width: 78%;
+    display: block;
+    position: relative;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    margin-left: 41%;
+    margin-top: 11%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .home-main--infos {
+    width: 84%;
+    display: block;
+    position: relative;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    margin-left: auto;
+    margin-top: 20%;
+    margin-right: auto;
+    text-align: center;
+  }
+  .brand-logo-footer {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 5em;
+  }
+  .brand-logo-footer-1 {
+    margin: 0 auto;
+  }
+  .nav-links-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7em;
+    margin: 0;
+  }
+  h1 {
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (max-width: 880px) {
+  .brand-logo {
+    margin: 1rem 6rem;
+  }
+  .nav {
+    right: -5.5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .brand-logo {
+    margin: 1rem 4rem;
+  }
+  .nav {
+    right: -10.5%;
+  }
+  .brand-logo-name {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .brand-logo {
+    width: auto;
+  }
+  .nav-links-footer {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  dl {
+    display: block;
+  }
+  .brand-logo {
+    margin: 1rem 3rem;
+  }
+  .footer-name-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nav {
+    right: -19.5%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nav {
+    right: -25.5%;
+  }
+  .nav :not(:last-child) {
+    margin-right: 0;
+  }
 }
