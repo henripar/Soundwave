@@ -13,6 +13,12 @@ After finishing the Figma layout I thought it would be fun challenge to try to c
 
 This project is just for practice and was the first prototype page I ever created with Figma and also the first time I build a website based on someone elses design.
 
+### Demo
+
+You can check the demo on:  
+
+https://henripar.github.io/Soundwave/
+
 ### Licence
 
 Landing page design &COPY; by [Dev Ed](https://github.com/developedbyed/) -  Attribution-ShareAlike 3.0 Unported— CC BY-SA 3.0   
