@@ -73,6 +73,7 @@ body {
   position: absolute;
   bottom: 42%;
   right: 13%;
+  z-index: 1;
 }
 
 .home-main--infos h1,
@@ -280,7 +281,7 @@ svg:hover path {
     width: 78%;
     display: block;
     position: relative;
-    z-index: 100;
+    z-index: 10;
     top: 0;
     right: 0;
     margin-left: 41%;
@@ -368,5 +369,86 @@ svg:hover path {
   }
   .nav :not(:last-child) {
     margin-right: 0;
+  }
+  .circle-2 {
+    top: 0%;
+    left: 47%;
+  }
+  .circle-1 {
+    bottom: 38%;
+    left: -10%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  html {
+    width: 100vw;
+  }
+  .home-main--infos h1 {
+    font-size: 2.2em !important;
+  }
+  h2 {
+    display: none;
+  }
+  .home-main--infos {
+    margin-top: 30%;
+  }
+  .circle-2 {
+    top: 0%;
+    left: 53%;
+  }
+  .circle-1 {
+    bottom: 46%;
+    left: -8%;
+  }
+}
+@media screen and (orientation: landscape) and (min-device-width: 419px) and (max-device-width: 812px) {
+  body {
+    width: 100vw;
+  }
+  .home-main--infos {
+    margin-top: 5%;
+    display: inline-block;
+    margin: 4.5em 0 4em 16em;
+    text-align: start;
+  }
+  .home-main--infos h1 {
+    font-size: 1.8em;
+  }
+  .home-main--infos h2 {
+    font-size: 1.2em;
+  }
+  .btn {
+    margin-top: 1rem;
+  }
+  .circle-3 {
+    bottom: -7%;
+    right: -12%;
+  }
+  .circle-2 {
+    top: 5%;
+    left: 36%;
+  }
+  .circle-1 {
+    bottom: -3%;
+    left: -2%;
+  }
+
+  .footer-name-logo {
+    display: none;
+  }
+}
+@media screen and (orientation: landscape) and (min-device-width: 419px) and (max-device-width: 568px) {
+  h1 {
+    font-size: 2.2em !important;
+  }
+  h2 {
+    font-size: 1em !important;
+  }
+  .home-main--infos {
+    margin-top: 10%;
+  }
+  .footer-name-logo {
+    display: none;
   }
 }
